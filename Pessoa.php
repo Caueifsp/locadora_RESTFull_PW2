@@ -21,7 +21,7 @@
                 echo json_encode([
                     "msg" => "Houve um erro na base de dados: " . $e.getMessage()
                 ]);
-                exit;
+                die;
             }
  
         }
@@ -44,7 +44,7 @@
                 echo json_encode([
                     "msg" => "Houve um erro na base de dados: " . $e.getMessage()
                 ]);
-                exit;
+                die;
             }
 
         }
@@ -66,7 +66,7 @@
                 echo json_encode([
                     "msg" => "Houve um erro na base de dados: " . $e.getMessage()
                 ]);
-                exit;
+                die;
             }
 
         }
@@ -89,7 +89,7 @@
                 echo json_encode([
                     "msg" => "Houve um erro na base de dados: " . $e.getMessage()
                 ]);
-                exit;
+                die;
             }
 
         }
