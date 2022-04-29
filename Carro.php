@@ -61,7 +61,7 @@
             }
         }
 
-        public static function getCarro($id){
+        public static function listarCarro($id){
             try{
                 $conexao = Conexao::getConexao(); 
                 $stmt = $conexao->prepare("SELECT id, nome, marca, ano, idPessoa  FROM carros WHERE id=? "); 
